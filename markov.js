@@ -60,7 +60,7 @@ class MarkovMachine {
         newSentence = newSentence + " " + word;
       } else {
         console.log(newSentence);
-        process.exit(1);
+        return newSentence;
       }
     }
     return newSentence;
